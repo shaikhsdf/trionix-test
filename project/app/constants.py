@@ -1,0 +1,8 @@
+ID = 'id'
+FIRST_NAME = 'first_name'
+LAST_NAME = 'last_name'
+DOB = 'dob'
+EMAIL = 'email'
+GENDER = 'gender'
+STUDENT = 'student'
+PK = 'pk'

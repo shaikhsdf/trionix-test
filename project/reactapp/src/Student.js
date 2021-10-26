@@ -87,14 +87,14 @@ export class Student extends Component{
             gender:""
         });
     }
-    editClick(stu){
+    editClick(student){
         this.setState({
             modalTitle:"Edit Student",
-            id:stu.id,
-            firstname:stu.firstname,
-            lastname:stu.lastname,
-            dob:stu.dob,
-            gender:stu.gender
+            id:student.id,
+            firstname:student.firstname,
+            lastname:student.lastname,
+            dob:student.dob,
+            gender:student.gender
         });
     }
 

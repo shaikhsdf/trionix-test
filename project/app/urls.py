@@ -1,7 +1,7 @@
-from django.conf.urls import url
+from django.urls import path
 from . import views
 
 urlpatterns=[
-    url(r'^student$',views.studentApi),
-    url(r'^student/([0-9]+)$',views.studentApi),
+    path('student/',views.studentApi),
+    path('student/<int:id>/',views.studentApi),
 ]

@@ -1,4 +1,4 @@
 # trionix-test
 Trionix Solutions Interview Test
 
-----Student Management system using python, django and reactjs----
+----API using python, django and reactjs----
